@@ -29,13 +29,8 @@ class Amazon():
 
 class INDEx():
 	def __new__ (self):
-		print("""
-		
-Script Started - 
-				By @ta9ra9pa9
-                Updated by @H3X0M
-		
-		""")
+		print("""𝔸𝕄𝔸ℤ𝕆ℕ 𝕍𝔸𝕃𝕀𝔻 𝔼𝕄𝔸𝕀𝕃 ℂℍ𝔼ℂ𝕂𝔼ℝ""")
+		print("""ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜ𝟹x𝟶ᴍ"""
 
 
 def fun_action(num):
@@ -56,12 +51,12 @@ def fun_action(num):
 			if A:
 				with open("Valid.txt","a") as ff:
 					ff.write("%s\n" % num)
-				print(Fore.GREEN + "[+]Yes ==> %s"  % num)
+				print(Fore.GREEN + "[+] Valid ==> %s"  % num)
 				break
 				
 			else:
 				
-				print(Fore.RED + "[-] No ==> %s"  % num) 
+				print(Fore.RED + "[-] Invalid ==> %s"  % num) 
 				break
 		except:pass
 		
